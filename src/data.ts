@@ -9,7 +9,7 @@ export const introData = {
   phone: "0879860004",
   email: "premika.yu@gmail.com",
   github: "bpremika",
-  linkedin: "",
+  linkedin: "Premika Yutinatorn",
   location: "Bangkok, Thailand",
   website: "",
 };
@@ -22,7 +22,7 @@ export const technologies = [
   },
   {
     section: "Frameworks:",
-    details: "ReactJS, NextJS, TailwindCSS, Express.js",
+    details: "ReactJS, NextJS, TailwindCSS, ExpressJS",
   },
   {
     section: "Tools:",
@@ -38,19 +38,24 @@ export const educations = [
   {
     head: "B.Eng. Computer Engineering",
     details: [
-      "Chulalongkorn University, TH. 2021-present",
-      "Coursework includes: data structure, discrete math, programming methology",
+      "Chulalongkorn University, TH. 2021-present (GPA)",
+      "Relevant courses : Data Structure, Discrete Math, Programming Methology, Computer Programming",
     ],
   },
 ];
 
 export const workExperiences = [
   {
-    position: "Frontend Developer",
-    company: "IHI-Parksilom",
+    position: "Part-Time Frontend Developer",
+    company: "DoubleDev",
     url: "",
-    years: "2023",
-    details: ["Making admin panel for IHI-Parksilom"],
+    years: ["2023"],
+    details: [
+      "Developed an admin panel for the parking management system.",
+      "Doing a part of showing real-time car parking information such as vehicle counts, car information.",
+      "Developed a searching and sorting features for cars management table.",
+      "Using NextJS and TailwindCSS.",
+    ],
   },
 ];
 
@@ -58,9 +63,9 @@ export const projects = [
   {
     name: "Harty",
     details: [
-      " a backend service for Harty Website, the website for who looking for online gaming buddies to play your favourite games. ",
-      " or friends to do other activities such as camping or laser game.",
-      " This project is a project of 10-days project event created by Thinc. ",
+      " a backend service for Harty Website, the website for who looking for online gaming buddies to play your favourite games",
+      " or friends to do other activities such as camping or laser game",
+      " This project is a project of 10-days project event in 2022 created by Thinc. ",
     ],
     url: "harty.vercel.app",
   },
@@ -73,12 +78,32 @@ export const projects = [
   {
     name: "ecommerce",
     details: "Contribute my own shopping website",
-    url: "github.com/popyut/popyut",
+    url: "github.com/bpremika/ecommerce",
   },
+  {
+    name: "betterregchula",
+    details: ["Developed a frontend part of betterregchula, a remake version of 2regchula.com(Chulalongkorn University Registration)",
+    "This project is my first project developing a website and a part of 10-days project event in 2021 created by Thinc. ",],
+    url: ""
+  },
+  // {
+  //   name: "",
+  //   details:
+  //     "This project is a project of Hack To School event created by Thinc. ",
+  //   url: "github.com/popyut/popyut",
+  // },
 ];
 
+export const activities = [
+  {
+    name: "Vishnu20th camp",
+    details:
+      "working in finance and sponsorship team. I do a part of finding a sponsor for the camp.",
+  },
+];
 export const interests = [
   "Games :  FPS, Puzzlers and party games, Survival",
   "Music : Tpop",
+  "Piano Ukulele",
   "Pets : I have 2 dogs",
 ];

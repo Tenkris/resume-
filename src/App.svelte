@@ -8,6 +8,7 @@
     educations,
     fullVersionLink,
     interests,
+    activities,
     introData,
     projects,
     sourceLink,
@@ -86,7 +87,8 @@
       {#each educations as edu}
         <li>
           <HideToggle />
-          <strong>{edu.head}</strong>, {edu.details}
+          <strong>{edu.head}</strong> {edu.details[0]} <br/>
+          {edu.details[1]}
         </li>
       {/each}
     </ul>
@@ -120,7 +122,21 @@
       {/each}
     </ul>
   </section>
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Activities</h2>
+    <hr />
 
+    <ul class="text-left list-disc pl-8">
+      {#each activities as acv}
+      <li>
+        <HideToggle />
+        <strong>{acv.name}</strong>
+        - {acv.details}
+      </li>
+      {/each}
+    </ul>
+  </section>
   <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
