@@ -4,6 +4,7 @@
   import Work from "./Work.svelte"
   import Kofi from "./Kofi.svelte"
   import HideToggle from "./HideToggle.svelte"
+  import Project from "./Project.svelte"
   import {
     educations,
     fullVersionLink,
@@ -103,8 +104,17 @@
       <Work {...exp} />
     {/each}
   </section>
-
   <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
+    <hr />
+
+    {#each projects as project}
+      <Project {...project} />
+    {/each}
+  </section>
+
+  <!-- <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
@@ -121,7 +131,7 @@
         </li>
       {/each}
     </ul>
-  </section>
+  </section> -->
   <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Activities</h2>
