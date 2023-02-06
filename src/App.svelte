@@ -61,11 +61,18 @@
     : 'display-mode'}"
 >
   <Intro {...introData} />
-
   <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">
-      Technologies and Languages
+      Objective
+    </h2>
+    <hr />
+    <h3 class="text-l text-left italic">To obtain a software engineering position in a challenging and dynamic environment where I can utilize my knowledge and skills in computer engineering to contribute to the development and success of the company.</h3>
+  </section>
+  <section>
+    <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">
+      Technologies and Programming Languages
     </h2>
     <hr />
     <ul class="text-left list-disc pl-8">
@@ -149,6 +156,19 @@
   </section>
   <section>
     <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">
+      Languages
+    </h2>
+    <hr />
+    <ul class="text-left list-disc pl-8">
+        <li>
+          <HideToggle />
+          <span>English with TOEIC score 700</span>
+        </li>
+    </ul>
+  </section>
+  <section>
+    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
     <hr />
 
@@ -162,12 +182,12 @@
     </ul>
   </section>
 
-  <footer class="print-only">
+  <!-- <footer class="print-only">
     (See <a href={fullVersionLink} target="_blank" rel="noopener"
       >full version</a
     >
     or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
-  </footer>
+  </footer> -->
 </main>
 
 <style>
