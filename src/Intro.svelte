@@ -42,7 +42,7 @@
       <a
         href={`https://linkedin.com/in/${linkedin}`}
         target="_blank"
-        rel="noreferrer">Linkedin</a
+        rel="noreferrer">Linkedin: Krittapas Rungsimontuchat</a
       >
     </p>
   </div>

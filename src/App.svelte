@@ -14,7 +14,7 @@
     projects,
     sourceLink,
     technologies,
-    workExperiences,
+    // workExperiences,
   } from "./data"
 
   let editMode = false
@@ -96,13 +96,20 @@
         <li>
           <HideToggle />
           <strong>{edu.head}</strong> {edu.details[0]} <br/>
-          {edu.details[1]}
+          <!-- if size edu < 1 does not show -->
+          {#if edu.details.length > 1} <!-- Check if there are additional details -->
+               <!-- Assuming you want to hide/show this part with HideToggle, it should be handled within the HideToggle component logic -->
+              {edu.details[1]} <!-- Render the second detail if it exists -->
+          {/if}
+          
+          <!-- {edu.details[1]} -->
+
         </li>
       {/each}
     </ul>
   </section>
 
-  <section>
+  <!-- <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
     <hr />
@@ -110,7 +117,7 @@
     {#each workExperiences as exp}
       <Work {...exp} />
     {/each}
-  </section>
+  </section> -->
   <section>
     <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
@@ -163,7 +170,7 @@
     <ul class="text-left list-disc pl-8">
         <li>
           <HideToggle />
-          <span>English with TOEIC score 700</span>
+          <span> Intermediate 4 main skill in english</span>
         </li>
     </ul>
   </section>
