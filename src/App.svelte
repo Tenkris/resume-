@@ -170,7 +170,7 @@
     <ul class="text-left list-disc pl-8">
         <li>
           <HideToggle />
-          <span> Intermediate 4 main skill in english</span>
+          <span> Iwntermediate 4 main skill in english</span>
         </li>
     </ul>
   </section>
