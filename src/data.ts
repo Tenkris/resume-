@@ -99,7 +99,7 @@ export const projects = [
     url: "github.com/Tenkris/Chess_Game",
   },
   {
-    name: "ลืมโว้ย (todolist website connect with chula courseville)",
+    name: "Project ลืมโว้ย (todolist website connect with chula courseville)",
     details: [
     "Developed a frontend part of todolist website and connect with backend using HTML, CSS, purejs.",
     "Developed a backend part of api and create cookie , authentication using expressjs.",
@@ -134,20 +134,20 @@ export const activities = [
   {
     name: "Larngear22th camp",
     details:
-      "Worked in academic team to create content about academic in Chula Engineering .",
+      "Worked in an academic team to create academic content in Chula Engineering .",
   },
   {
     name: "Fecamp16 - Fecamp17",
     details:
-      "Worked in academic team to teaching about physics and math for high school student who prepare for TCAS.",
+      "Worked in an academic team to teach physics and mathematics for high school students who are preparing for TCAS exam.",
   },
   {
     name: "Project Begin Mentorship program",
     details:
-      ["Joined the Project Begin Mentorship program as a trainee"," Learned more about adapt design thinking to design my life."]
+      ["Joined the Project Begin Mentorship program as a trainee. Learned more about adapting design thinking to design my career life."]
   },
 ];
 export const interests = [
-  "Teaching : I teaching group of high school student (4-5 people) about math and physics as part time job.",
-  "E-sport : I win the 3st place in the Rov OTW competition",
+  "Teaching : Teaching group of high school students (4-5 people) about  mathematics and physics as part time job.",
+  "E-sport : I won 3rd place in the Rov OTW competition in 2017.",
 ];
