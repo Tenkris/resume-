@@ -134,7 +134,7 @@ export const activities = [
   {
     name: "Larngear22th camp",
     details:
-      "Worked in an academic team to create academic content in Chula Engineering .",
+      "Worked in an academic team to create academic content in Chula Engineering.",
   },
   {
     name: "Fecamp16 - Fecamp17",
