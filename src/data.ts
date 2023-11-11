@@ -120,10 +120,10 @@ export const projects = [
     url: "github.com/Tenkris/iot-indoor-home-garden",
   },
   {
-    name: "Graphql for Relation between Compound and Bioassay",
+    name: "Graph database for pubchem ",
     details:[
       "Understand relation about data in pubchem website.",
-      "Developed graphql that represent relation between compound and bioassay.", 
+      "Developed graph database that represent relation between compound and bioassay.", 
       "Using Cypher to query data from neo4j database.", 
     ],
     url: "github.com/Tenkris/Pubchem_graphql",
